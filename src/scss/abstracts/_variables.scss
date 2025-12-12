@@ -1,0 +1,44 @@
+@use 'breakpoints' as *;
+
+:root {
+  // Colors
+  --color-accent: #000;
+
+  // Typography
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-heading: var(--font-family-base);
+
+  --fs-xs: 0.75rem; //clamp();
+  --fs-sm: 0.875rem;
+
+  // Layout
+  --container-width: 1200px;
+  --container-narrow-width: 700px;
+
+  @include media-down(lg) {
+    --container-width: 1200px;
+  }
+
+  @include media-down(sm) {
+    --container-width: 1200px;
+  }
+
+
+  //Radius
+  --border-radius: 4px;
+
+
+
+  // Spacing
+  --space-0: 0;
+  --space-1: .75rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --space-7: 5rem;
+  --space-8: clamp(2.5rem, 5vw, 8rem);
+
+  //Other
+}

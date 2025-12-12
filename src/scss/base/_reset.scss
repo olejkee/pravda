@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-base);
+  box-sizing: border-box;
+}

@@ -1,0 +1,42 @@
+// abstracts/_breakpoints.scss
+@use 'sass:map';
+
+/// Карта брейкпоинтов
+$breakpoints: (
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1440px,
+  xxxl: 1600px
+);
+
+/// Достаём значение брейкпоинта
+@function bp($name) {
+  @if (map.has-key($breakpoints, $name)) {
+    @return map.get($breakpoints, $name);
+  }
+
+  @error "Unknown breakpoint `#{$name}`. Valid: #{map.keys($breakpoints)}";
+}
+
+/// Минимальная ширина (up)
+@mixin media-up($name) {
+  @media (min-width: bp($name)) {
+    @content;
+  }
+}
+
+/// Максимальная ширина (down)
+@mixin media-down($name) {
+  @media (max-width: bp($name)) {
+    @content;
+  }
+}
+
+/// Между двумя брейкпоинтами
+@mixin media-between($from, $to) {
+  @media (min-width: bp($from)) and (max-width: bp($to)) {
+    @content;
+  }
+}
