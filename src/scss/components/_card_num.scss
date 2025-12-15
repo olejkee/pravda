@@ -1,0 +1,8 @@
+.card_num {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-4);
+    background-color: var(--color-bg-medium);
+    gap: var(space-9);
+    border-radius: var(--border-radius);
+}

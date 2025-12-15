@@ -7,6 +7,10 @@
 @use 'base/utilities';
 
 @use 'components/section_header';
+@use 'components/section_header__title';
+@use 'components/section_header__desc';
 @use 'components/btn';
+@use 'components/card_num';
+@use 'components/card_num__header';
 
 @use 'layout/container';
