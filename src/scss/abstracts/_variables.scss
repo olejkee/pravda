@@ -6,6 +6,7 @@
   --color-bg-light: #ffffff;
   --color-bg-medium: #E5E4E2;
   --color-bg-dark: #1A1A1A;
+  --color-btn-hover: #4c1411;
 
   // Typography
   --font-family-base: 'Inter', sans-serif;
@@ -29,11 +30,9 @@
   --container-narrow-width: 700px;
 
   // Line heights
-  /*Headings*/
-  --lh-h1: 1;
-  --lh-h2: 1.15;
-  /* Text */
-  --lh-text: 1.4; 
+  --lh-hero: 1.25;
+  --lh-text: 1.4;
+  --lh-1: 1; 
 
   //Radius
   --border-radius: 4px;
@@ -42,14 +41,22 @@
   --space-0: 0;
   --space-1: .75rem;
   --space-2: 1rem;
-  --space-3: 1.5rem;
-  --space-4: 2rem;
-  --space-5: 3rem;
-  --space-6: 4rem;
-  --space-7: 5rem;
-  --space-8: clamp(2.5rem, 5vw, 8rem);
+  --space-3: 1.375rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4rem;
+  --space-8: 5rem;
+  --space-9: clamp(2.5rem, 5vw, 8rem);
 
-  //Other
+  //Font-weights
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  //Letter-spacing
+  --ls-normal: 0;
+  --ls-wide: 0.03em; 
 }
 
 /* Tablet and laptop adaptation (up to 1024px) */
