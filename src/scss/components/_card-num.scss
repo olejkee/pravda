@@ -1,13 +1,18 @@
-.card_num {
+.card-num {
     display: flex;
     flex-direction: column;
     padding: var(--space-4);
-    background-color: var(--color-bg-medium);
-    gap: var(space-9);
+    background-color: var(--color-medium);
+    gap: var(--space-9);
     border-radius: var(--border-radius);
     
     &__header { 
     font-weight: var(--fw-semibold);
     color: var(--color-accent);
+    }
+
+    &__title {
+        margin-bottom: var(--space-1);
+        font-weight: var(--fw-medium);
     }
 }

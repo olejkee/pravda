@@ -2,9 +2,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--space-3) var(--space-5);
+  padding: var(--space-3) var(--space-6);
   font-size: var(--fs-text);
   font-weight: var(--fw-semibold);
+  line-height: var(--lh-text);
   letter-spacing: var(--ls-wide);
   color: white;
   background-color: var(--color-accent);
@@ -13,22 +14,22 @@
   cursor: pointer;
   transition: background-color 0.2s;
   text-transform: uppercase;
-  
-    &:hover {
+
+  &:hover {
     background-color: var(--color-btn-hover);
   }
 
-  &--header {
+  &--sm {
     padding: var(--space-1) var(--space-2);
   }
 
-  &--phone { 
-    background-color: var(  --color-bg-light);
+  &--dark {
+    background-color: var(--color-light);
     color: var(--color-accent);
-      &:hover {
-      background-color: var(--color-bg-dark);
-      color: white;
-      }
+    
+    &:hover {
+      background-color: var(--color-dark);
+      color: var(--color-light);
+    }
   }
-  
 }
