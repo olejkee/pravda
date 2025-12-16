@@ -5,4 +5,9 @@
     background-color: var(--color-bg-medium);
     gap: var(space-9);
     border-radius: var(--border-radius);
+    
+    &__header { 
+    font-weight: var(--fw-semibold);
+    color: var(--color-accent);
+    }
 }
