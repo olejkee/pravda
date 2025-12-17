@@ -1,0 +1,16 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+
+  &__link {
+    color: var(--color-black);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-text);
+  }
+
+  &__link:hover {
+    color: var(--color-accent);
+    transition: color 0.2;
+  }
+}
