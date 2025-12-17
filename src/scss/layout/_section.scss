@@ -1,5 +1,11 @@
 .section {
-  padding-block: var(--space-8); //clamp
+  // padding-block: var(--space-8); //clamp
+  
+  // display: block;
+
+  &--hero {
+    
+  }
 
   &--no-top {
   }
