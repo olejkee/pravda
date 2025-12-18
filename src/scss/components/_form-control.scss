@@ -1,0 +1,19 @@
+.form-control {
+    box-sizing: border-box;
+    border: none;
+    background: var(--color-bg-white);
+    border-radius: var(--border-radius);
+    color: var(--color-black);
+    font-family: inherit;
+    font-size: inherit;
+    outline: 0;
+    line-height: var(--lh-text);
+    inline-size: 100%;
+    font-weight: var(--fw-semibold);
+    width: 360px;
+
+    &--lg {
+        padding: var(--space-4) var(--space-5);
+        height: var(--space-7);
+    }
+}
