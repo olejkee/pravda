@@ -52,5 +52,8 @@
         display: flex;
         gap: var(--space-1);
         color: var(--color-white);
+        text-decoration: underline;
+        font-size: var(--fs-text-xs);
+        line-height: var(--lh-text);
     }
 }

@@ -7,10 +7,17 @@
     
   }
 
+  &--mid {
+    background: var(--color-bg-medium);
+  }
+
   &--top {
     padding-block: var(--space-8);
   }
 
-  &--no-bottom {
+  &--top-double {
+    padding-top: calc(var(--space-9) * 2);
+    margin-top: calc(var(--space-9) * -1);
+    padding-bottom: var(--space-9);
   }
 }
