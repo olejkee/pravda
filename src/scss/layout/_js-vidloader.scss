@@ -1,0 +1,21 @@
+.js-vidloader { 
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    margin-top: var(--space-2);
+
+    &__poster { 
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: opacity 0.25s ease;
+    }
+
+    &__video { 
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

@@ -4,5 +4,18 @@
     &__fieldset {
         outline: 0;
         border: none;
+        display: flex;
+        gap: var(--space-0_5);
+    }
+
+    &__info {
+        font-size: var(--fs-text-xs);
+        color: inherit;
+        margin-top: var(--space-2);
+        opacity: .5;
+    }
+
+    &__link {
+        text-decoration: underline;
     }
 }

@@ -16,4 +16,11 @@
         padding: var(--space-4) var(--space-5);
         height: var(--space-7);
     }
+
+    &--alt {
+        color: var(--color-bg-white);
+        background: rgba(255, 255, 255, .1);
+        border: 1px solid rgba(255, 255, 255, .05);
+        backdrop-filter: blur(4px);
+    }
 }

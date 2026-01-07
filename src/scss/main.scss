@@ -19,10 +19,14 @@
 @use "components/category";
 @use "components/form";
 @use "components/form-control";
+@use "components/section-cta";
+@use "components/banner-cta";
+
 
 @use "layout/container";
 @use "layout/grid";
 @use "layout/section";
 @use "layout/header";
 @use "layout/main-banner";
+@use "layout/js-vidloader";
 @use "layout/footer";
