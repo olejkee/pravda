@@ -38,3 +38,36 @@
         display: flex;
     }
 }
+
+/* Responsive category styles */
+@media (max-width: 1024px) {
+  .category {
+    padding: var(--space-3);
+    
+    &__features {
+      gap: var(--space-1);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .category {
+    padding: var(--space-2);
+    
+    &__header {
+      margin-bottom: var(--space-2);
+    }
+    
+    &__features {
+      margin-bottom: var(--space-3);
+    }
+    
+    &__footer {
+      justify-content: center;
+    }
+  }
+  
+  .grid--2 {
+    grid-template-columns: 1fr !important; /* Override for mobile */
+  }
+}

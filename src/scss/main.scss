@@ -10,9 +10,6 @@
 
 @use "components/section-header";
 @use "components/section-footer";
-@use "components/site-branding";
-@use "components/site-nav";
-@use "components/site-actions";
 @use "components/btn";
 @use "components/stats";
 @use "components/card-num";
@@ -30,7 +27,7 @@
 @use "layout/container";
 @use "layout/grid";
 @use "layout/section";
-@use "layout/header";
+@use "layout/header";  // Consolidated header styles
 @use "layout/main-banner";
 @use "layout/js-vidloader";
 @use "layout/footer";

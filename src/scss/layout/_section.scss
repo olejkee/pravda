@@ -35,3 +35,32 @@
     color: var(--color-white);
   }
 }
+
+/* Responsive section styles */
+@media (max-width: 1024px) {
+  .section {
+    &--top {
+      padding-block: var(--space-6);
+    }
+    
+    &--top-double {
+      padding-top: var(--space-8);
+      margin-top: calc(var(--space-6) * -1);
+      padding-bottom: var(--space-6);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    &--top {
+      padding-block: var(--space-4);
+    }
+    
+    &--top-double {
+      padding-top: var(--space-6);
+      margin-top: calc(var(--space-4) * -1);
+      padding-bottom: var(--space-4);
+    }
+  }
+}

@@ -12,3 +12,20 @@
         overflow: hidden;
     }
 }
+
+/* Responsive team cards styles */
+@media (max-width: 1024px) {
+  .team-cards {
+    &__list { 
+        grid-template-columns: 1fr 1fr; /* 2 columns on tablets */
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .team-cards {
+    &__list { 
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+  }
+}

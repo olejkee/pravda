@@ -24,3 +24,28 @@
         color: var(--color-black-60);
     }
 }
+
+/* Responsive stats styles */
+@media (max-width: 1024px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+    
+    &__item {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .stats {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    
+    &__value {
+      font-size: var(--fs-h2);
+    }
+  }
+}
