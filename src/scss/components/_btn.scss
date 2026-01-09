@@ -36,4 +36,13 @@
       color: var(--color-white);
     }
   }
+
+  &--white { 
+    color: var(--color-accent);
+
+    &:hover {
+      background-color: var(--color-bg-dark);
+      color: var(--color-white);
+    }
+  }
 }

@@ -25,4 +25,13 @@
     background: var(--color-bg-dark);
     color: var(--color-white);
   }
+
+  &--both { 
+    padding-bottom: var(--space-9);  
+  }
+
+  &--accent {
+    background: var(--color-accent);
+    color: var(--color-white);
+  }
 }

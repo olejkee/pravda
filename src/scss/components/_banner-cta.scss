@@ -64,4 +64,12 @@
         width: 100px;
         background: var(--gradient-left);
     }
+
+    &--accent {
+        --gradient-left: none;
+        --gradient-right: none;
+        --back: var(--color-accent);
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
